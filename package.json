@@ -1,0 +1,31 @@
+{
+  "name": "font-generator",
+  "version": "0.0.1",
+  "description": "Generates cross-browser CSS for web fonts",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm test",
+    "prebuild": "rimraf dist && mkdir dist",
+    "build": "node ./src/index.js > ./dist/fonts.css && cpy ./assets/* ./dist/assets && npm run uglify",
+    "uglify": "uglify -s ./dist/fonts.css -o ./dist/fonts.min.css -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brightspace/font-generator.git"
+  },
+  "keywords": [
+    "font",
+    "generator"
+  ],
+  "author": "D2L Corporation",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Brightspace/font-generator/issues"
+  },
+  "homepage": "https://github.com/Brightspace/font-generator",
+  "devDependencies": {
+    "cpy": "^3.4.1",
+    "rimraf": "^2.4.3",
+    "uglify": "^0.1.5"
+  }
+}

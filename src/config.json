@@ -1,0 +1,110 @@
+{
+	"MerriweatherRegular": {
+		"family": "Merriweather",
+		"range": "U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000",
+		"style": "normal",
+		"weight": "400",
+		"formats": [
+			{
+				"type": "local",
+				"url": "Merriweather"
+			},
+			{
+				"type": "woff",
+				"url": "assets/Merriweather.woff"
+			},
+			{
+				"type": "woff2",
+				"url": "assets/Merriweather.woff2"
+			},
+			{
+				"type": "truetype",
+				"url": "assets/Merriweather.ttf"
+			}
+		]
+	},
+	"Merriweather-700": {
+		"family": "Merriweather",
+		"range": "U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000",
+		"style": "normal",
+		"weight": "700",
+		"formats": [
+			{
+				"type": "local",
+				"url": "Merriweather Bold"
+			},
+			{
+				"type": "local",
+				"url": "Merriweather-Bold"
+			},
+			{
+				"type": "woff",
+				"url": "assets/Merriweather-700.woff"
+			},
+			{
+				"type": "woff2",
+				"url": "assets/Merriweather-700.woff2"
+			},
+			{
+				"type": "truetype",
+				"url": "assets/Merriweather-Bold.ttf"
+			}
+		]
+	},
+	"Merriweather-Italic": {
+		"family": "Merriweather",
+		"range": "U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000",
+		"style": "italic",
+		"weight": "400",
+		"formats": [
+			{
+				"type": "local",
+				"url": "Merriweather Italic"
+			},
+			{
+				"type": "local",
+				"url": "Merriweather-Italic"
+			},
+			{
+				"type": "woff",
+				"url": "assets/Merriweather-Italic.woff"
+			},
+			{
+				"type": "woff2",
+				"url": "assets/Merriweather-Italic.woff2"
+			},
+			{
+				"type": "truetype",
+				"url": "assets/Merriweather-Italic.ttf"
+			}
+		]
+	},
+	"Merriweather-700-Italic": {
+		"family": "Merriweather",
+		"range": "U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000",
+		"style": "italic",
+		"weight": "700",
+		"formats": [
+			{
+				"type": "local",
+				"url": "Merriweather Bold Italic"
+			},
+			{
+				"type": "local",
+				"url": "Merriweather-BoldItalic"
+			},
+			{
+				"type": "woff",
+				"url": "assets/Merriweather-700-Italic.woff"
+			},
+			{
+				"type": "woff2",
+				"url": "assets/Merriweather-700-Italic.woff2"
+			},
+			{
+				"type": "truetype",
+				"url": "assets/Merriweather-Bold-Italic.ttf"
+			}
+		]
+	}
+}
