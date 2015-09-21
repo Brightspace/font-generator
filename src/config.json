@@ -100,5 +100,59 @@
 				}
 			]
 		}
+	],
+	"Oxygen": [
+		{
+			"style": "normal",
+			"weight": "400",
+			"formats": [
+				{
+					"type": "local",
+					"url": "Oxygen"
+				},
+				{
+					"type": "local",
+					"url": "Oxygen-Regular"
+				},
+				{
+					"type": "woff",
+					"url": "assets/Oxygen.woff"
+				},
+				{
+					"type": "woff2",
+					"url": "assets/Oxygen.woff2"
+				},
+				{
+					"type": "truetype",
+					"url": "assets/Oxygen.ttf"
+				}
+			]
+		},
+		{
+			"style": "normal",
+			"weight": "700",
+			"formats": [
+				{
+					"type": "local",
+					"url": "Oxygen Bold"
+				},
+				{
+					"type": "local",
+					"url": "Oxygen-Bold"
+				},
+				{
+					"type": "woff",
+					"url": "assets/Oxygen-700.woff"
+				},
+				{
+					"type": "woff2",
+					"url": "assets/Oxygen-700.woff2"
+				},
+				{
+					"type": "truetype",
+					"url": "assets/Oxygen-Bold.ttf"
+				}
+			]
+		}
 	]
 }
