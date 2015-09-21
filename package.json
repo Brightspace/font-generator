@@ -4,7 +4,7 @@
   "description": "Generates cross-browser CSS for web fonts",
   "main": "src/index.js",
   "bin": {
-      "font-generator": "./bin/generator"
+    "font-generator": "./bin/generator"
   },
   "scripts": {
     "test": "npm run build",
@@ -29,6 +29,7 @@
   "homepage": "https://github.com/Brightspace/font-generator",
   "devDependencies": {
     "cpy": "^3.4.1",
+    "frau-publisher": "^2.5.1",
     "rimraf": "^2.4.3",
     "uglify": "^0.1.5"
   }
