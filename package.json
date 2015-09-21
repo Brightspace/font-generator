@@ -7,9 +7,10 @@
       "font-generator": "./bin/generator"
   },
   "scripts": {
-    "test": "npm test",
+    "test": "npm run build",
     "prebuild": "rimraf dist && mkdir dist",
     "build": "node ./bin/generator > ./dist/fonts.css && cpy ./assets/* ./dist/assets && npm run uglify",
+    "publish:cdn": "frau-publisher -m lib -t fonts -f './dist/**' -k AKIAJ74TXZZMW4IVWJOA --secretvar S3_SECRET --versionvar TRAVIS_TAG",
     "uglify": "uglify -s ./dist/fonts.css -o ./dist/fonts.min.css -c"
   },
   "repository": {

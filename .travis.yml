@@ -2,3 +2,9 @@ language: node_js
 node_js:
 - 4.1
 sudo: false
+after_success:
+- '[ "$TRAVIS_SECURE_ENV_VARS" = "true" ] && [ "x$TRAVIS_TAG" != "x" ] && npm run
+  publish:cdn'
+env:
+  global:
+    secure: kHknJBAIF1rYnRLmd5rFNeaBgmGByJSks8jjIAnU4cPqQhyCKY1cjsbWdEXl6VQheFgPeFNRNwRmaThpf0ks+GqF00JxGtb+0wKhbWbyBpZe+8bXSDtU1Tn5j5YCiwepiXM61aUurfECWnl6Yu8XLD8TkJ97tBn8DP/4VgM+JxXDcGs5UejekIHH802Ww3CfeY+C3xs8Gx7GZ/xnpLuq7tRVy7MCUQ2LidK4GpGcKTeryTjFIEaz8d8nZ5SfuErmM2fribS6UHv1NUK4rkJzt/azoP0qoQ7cjPCFLOVO8M8T7QG/uSIDRSfHkpN0w/ME2n820hMDtbS/V96csIaWYKxxGv3+K0a5tTgfVeIIZWmJatD03al/fXjT2DsIz2YThR1UGBA2SNOsUwQcudZb9ByDZCjv3JWnfXd9uPGgCFUwNmO+xe6d3RhlObJLefFCa48q2FBPp3rwb9+DEQF1KZNnEKXtBPw5tHqKOoY5veSXgyTjyU3GS3i7uXvuHwxXV22JmN+gZftkX5UoUPqPCwyPhOwcj75N1yknmx+C8BKdeyL2EX0B1WHV9BIgWsC3wIsLgqPilb2MrYyzxX0Ix2kPATDoixwR/3dR5ExlMYEeOdb2Bl7bQ3adYOcwUjQvi7r4lXUwJPTMZqqypofRvnAMGuZdj6bKPHKRj3w6AiU=
