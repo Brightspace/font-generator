@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+const generator = require('../src/index');
+
+const s = generator();
+s.pipe(process.stdout);

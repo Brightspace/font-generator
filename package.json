@@ -3,10 +3,13 @@
   "version": "0.0.1",
   "description": "Generates cross-browser CSS for web fonts",
   "main": "src/index.js",
+  "bin": {
+      "font-generator": "./bin/generator"
+  },
   "scripts": {
     "test": "npm test",
     "prebuild": "rimraf dist && mkdir dist",
-    "build": "node ./src/index.js > ./dist/fonts.css && cpy ./assets/* ./dist/assets && npm run uglify",
+    "build": "node ./bin/generator > ./dist/fonts.css && cpy ./assets/* ./dist/assets && npm run uglify",
     "uglify": "uglify -s ./dist/fonts.css -o ./dist/fonts.min.css -c"
   },
   "repository": {

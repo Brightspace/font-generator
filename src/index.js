@@ -1,6 +1,7 @@
 'use strict';
 
-let config = require('./config.json');
+const config = require('./config.json');
+const Readable = require('stream').Readable;
 
 function generateFont(family, font) {
 
@@ -60,11 +61,14 @@ function generateFont(family, font) {
 
 }
 
-let buffer = '';
-for(let family in config) {
-	config[family].forEach((font) => {
-		buffer += generateFont(family, font) + '\n';
-	});
-}
-
-console.log(buffer);
+module.exports = function() {
+	var s = new Readable();
+	for(let family in config) {
+		config[family].forEach((font) => {
+			s.push(generateFont(family, font));
+			s.push('\n');
+		});
+	}
+	s.push(null);
+	return s;
+};
