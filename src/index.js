@@ -2,7 +2,7 @@
 
 let config = require('./config.json');
 
-function generateFont(font) {
+function generateFont(family, font) {
 
 	let local = [];
 	let woff = null;
@@ -51,7 +51,7 @@ function generateFont(font) {
 	});
 
 	let value = `@font-face {
-	font-family: '${font.family}';
+	font-family: '${family}';
 	font-style: ${font.style};
 	font-weight: ${font.weight};
 	src: ${src};
@@ -61,8 +61,10 @@ function generateFont(font) {
 }
 
 let buffer = '';
-for(let fontName in config) {
-	buffer += generateFont(config[fontName]) + '\n';
+for(let family in config) {
+	config[family].forEach((font) => {
+		buffer += generateFont(family, font) + '\n';
+	});
 }
 
 console.log(buffer);
