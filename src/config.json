@@ -1,24 +1,54 @@
 {
-	"Merriweather": [
+	"Lato": [
+		{
+			"style": "normal",
+			"weight": "300",
+			"formats": [
+				{
+					"type": "local",
+					"url": "Lato Light"
+				},
+				{
+					"type": "local",
+					"url": "Lato-Light"
+				},
+				{
+					"type": "woff",
+					"url": "assets/Lato-300.woff"
+				},
+				{
+					"type": "woff2",
+					"url": "assets/Lato-300.woff2"
+				},
+				{
+					"type": "truetype",
+					"url": "assets/Lato-300.ttf"
+				}
+			]
+		},
 		{
 			"style": "normal",
 			"weight": "400",
 			"formats": [
 				{
 					"type": "local",
-					"url": "Merriweather"
+					"url": "Lato Regular"
+				},
+				{
+					"type": "local",
+					"url": "Lato-Regular"
 				},
 				{
 					"type": "woff",
-					"url": "assets/Merriweather.woff"
+					"url": "assets/Lato.woff"
 				},
 				{
 					"type": "woff2",
-					"url": "assets/Merriweather.woff2"
+					"url": "assets/Lato.woff2"
 				},
 				{
 					"type": "truetype",
-					"url": "assets/Merriweather.ttf"
+					"url": "assets/Lato.ttf"
 				}
 			]
 		},
@@ -28,129 +58,23 @@
 			"formats": [
 				{
 					"type": "local",
-					"url": "Merriweather Bold"
+					"url": "Lato Bold"
 				},
 				{
 					"type": "local",
-					"url": "Merriweather-Bold"
+					"url": "Lata-Bold"
 				},
 				{
 					"type": "woff",
-					"url": "assets/Merriweather-700.woff"
+					"url": "assets/Lato-700.woff"
 				},
 				{
 					"type": "woff2",
-					"url": "assets/Merriweather-700.woff2"
+					"url": "assets/Lato-700.woff2"
 				},
 				{
 					"type": "truetype",
-					"url": "assets/Merriweather-Bold.ttf"
-				}
-			]
-		},
-		{
-			"style": "italic",
-			"weight": "400",
-			"formats": [
-				{
-					"type": "local",
-					"url": "Merriweather Italic"
-				},
-				{
-					"type": "local",
-					"url": "Merriweather-Italic"
-				},
-				{
-					"type": "woff",
-					"url": "assets/Merriweather-Italic.woff"
-				},
-				{
-					"type": "woff2",
-					"url": "assets/Merriweather-Italic.woff2"
-				},
-				{
-					"type": "truetype",
-					"url": "assets/Merriweather-Italic.ttf"
-				}
-			]
-		},
-		{
-			"style": "italic",
-			"weight": "700",
-			"formats": [
-				{
-					"type": "local",
-					"url": "Merriweather Bold Italic"
-				},
-				{
-					"type": "local",
-					"url": "Merriweather-BoldItalic"
-				},
-				{
-					"type": "woff",
-					"url": "assets/Merriweather-700-Italic.woff"
-				},
-				{
-					"type": "woff2",
-					"url": "assets/Merriweather-700-Italic.woff2"
-				},
-				{
-					"type": "truetype",
-					"url": "assets/Merriweather-Bold-Italic.ttf"
-				}
-			]
-		}
-	],
-	"Oxygen": [
-		{
-			"style": "normal",
-			"weight": "400",
-			"formats": [
-				{
-					"type": "local",
-					"url": "Oxygen"
-				},
-				{
-					"type": "local",
-					"url": "Oxygen-Regular"
-				},
-				{
-					"type": "woff",
-					"url": "assets/Oxygen.woff"
-				},
-				{
-					"type": "woff2",
-					"url": "assets/Oxygen.woff2"
-				},
-				{
-					"type": "truetype",
-					"url": "assets/Oxygen.ttf"
-				}
-			]
-		},
-		{
-			"style": "normal",
-			"weight": "700",
-			"formats": [
-				{
-					"type": "local",
-					"url": "Oxygen Bold"
-				},
-				{
-					"type": "local",
-					"url": "Oxygen-Bold"
-				},
-				{
-					"type": "woff",
-					"url": "assets/Oxygen-700.woff"
-				},
-				{
-					"type": "woff2",
-					"url": "assets/Oxygen-700.woff2"
-				},
-				{
-					"type": "truetype",
-					"url": "assets/Oxygen-Bold.ttf"
+					"url": "assets/Lato-700.ttf"
 				}
 			]
 		}
