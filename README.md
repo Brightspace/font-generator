@@ -32,7 +32,7 @@ Contributions are welcome, please submit a pull request!
 
 ### Code Style
 
-This repository is configured with [EditorConfig](http://editorconfig.org) rules and contributions should make use of them.
+This repository is configured with [EditorConfig](http://editorconfig.org) and [eslint](http://eslint.org/) rules and contributions should make use of them.
 
 [ci-url]: https://travis-ci.org/Brightspace/font-generator
 [ci-image]: https://img.shields.io/travis/Brightspace/font-generator.svg

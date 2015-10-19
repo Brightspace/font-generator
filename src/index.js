@@ -11,7 +11,7 @@ function generateFont(family, font) {
 	let truetype = null;
 
 	font.formats.forEach((format) => {
-		switch(format.type) {
+		switch (format.type) {
 			case 'local':
 				local.push(format);
 				break;
@@ -30,20 +30,20 @@ function generateFont(family, font) {
 	});
 
 	let sources = local;
-	if(woff2 !== null) {
+	if (woff2 !== null) {
 		sources.push(woff2);
 	}
-	if(woff !== null) {
+	if (woff !== null) {
 		sources.push(woff);
 	}
-	if(truetype !== null) {
+	if (truetype !== null) {
 		sources.push(truetype);
 	}
 
 	let src = '';
 	let comma = '';
 	sources.forEach(function(source) {
-		if(source.type === 'local') {
+		if (source.type === 'local') {
 			src += `${comma}local('${source.url}')`;
 		} else {
 			src += `${comma}url(${source.url}) format('${source.type}')`;
@@ -63,7 +63,7 @@ function generateFont(family, font) {
 
 module.exports = function() {
 	var s = new Readable();
-	for(let family in config) {
+	for (let family in config) {
 		config[family].forEach((font) => {
 			s.push(generateFont(family, font));
 			s.push('\n');
