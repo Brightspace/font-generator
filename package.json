@@ -1,6 +1,6 @@
 {
   "name": "font-generator",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Generates cross-browser CSS for web fonts",
   "main": "src/index.js",
   "bin": {
@@ -12,7 +12,7 @@
     "build": "node ./bin/generator > ./dist/fonts.css && cpy ./assets/* ./dist/assets && npm run uglify",
     "publish:cdn": "frau-publisher -m lib -t fonts -f './dist/**' -k AKIAJ74TXZZMW4IVWJOA --secretvar S3_SECRET --versionvar TRAVIS_TAG",
     "lint": "eslint src",
-    "uglify": "uglify -s ./dist/fonts.css -o ./dist/fonts.min.css -c"
+    "uglify": "cleancss -s ./dist/fonts.css -o ./dist/fonts.min.css -c"
   },
   "repository": {
     "type": "git",
@@ -29,12 +29,12 @@
   },
   "homepage": "https://github.com/Brightspace/font-generator",
   "devDependencies": {
-    "cpy": "^3.4.1",
-    "eslint": "^1.7.1",
-    "eslint-config-brightspace": "0.0.2",
-    "eslint-plugin-react": "^3.6.2",
-    "frau-publisher": "^2.5.1",
-    "rimraf": "^2.4.3",
-    "uglify": "^0.1.5"
+    "clean-css": "^3.4.11",
+    "cpy-cli": "^1.0.0",
+    "eslint": "^2.7.0",
+    "eslint-config-brightspace": "0.2.0",
+    "eslint-plugin-react": "^4.3.0",
+    "frau-publisher": "^2.5.3",
+    "rimraf": "^2.5.2"
   }
 }
