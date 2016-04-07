@@ -40,15 +40,15 @@
 				},
 				{
 					"type": "woff",
-					"url": "assets/Lato.woff"
+					"url": "assets/Lato-400.woff"
 				},
 				{
 					"type": "woff2",
-					"url": "assets/Lato.woff2"
+					"url": "assets/Lato-400.woff2"
 				},
 				{
 					"type": "truetype",
-					"url": "assets/Lato.ttf"
+					"url": "assets/Lato-400.ttf"
 				}
 			]
 		},

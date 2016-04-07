@@ -5,7 +5,7 @@ const Readable = require('stream').Readable;
 
 function generateFont(family, font) {
 
-	let local = [];
+	const local = [];
 	let woff = null;
 	let woff2 = null;
 	let truetype = null;
@@ -29,7 +29,7 @@ function generateFont(family, font) {
 		}
 	});
 
-	let sources = local;
+	const sources = local;
 	if (woff2 !== null) {
 		sources.push(woff2);
 	}
@@ -51,7 +51,7 @@ function generateFont(family, font) {
 		comma = ', ';
 	});
 
-	let value = `@font-face {
+	const value = `@font-face {
 	font-family: '${family}';
 	font-style: ${font.style};
 	font-weight: ${font.weight};
@@ -63,7 +63,7 @@ function generateFont(family, font) {
 
 module.exports = function() {
 	var s = new Readable();
-	for (let family in config) {
+	for (const family in config) {
 		config[family].forEach((font) => {
 			s.push(generateFont(family, font));
 			s.push('\n');
