@@ -1,28 +1,28 @@
 {
-	"Lato": [
+	"Open Sans": [
 		{
 			"style": "normal",
 			"weight": "300",
 			"formats": [
 				{
 					"type": "local",
-					"url": "Lato Light"
+					"url": "OpenSans Light"
 				},
 				{
 					"type": "local",
-					"url": "Lato-Light"
+					"url": "OpenSans-Light"
 				},
 				{
 					"type": "woff",
-					"url": "assets/Lato-300.woff"
+					"url": "assets/OpenSans-300.woff"
 				},
 				{
 					"type": "woff2",
-					"url": "assets/Lato-300.woff2"
+					"url": "assets/OpenSans-300.woff2"
 				},
 				{
 					"type": "truetype",
-					"url": "assets/Lato-300.ttf"
+					"url": "assets/OpenSans-300.ttf"
 				}
 			]
 		},
@@ -32,23 +32,23 @@
 			"formats": [
 				{
 					"type": "local",
-					"url": "Lato Regular"
+					"url": "OpenSans Regular"
 				},
 				{
 					"type": "local",
-					"url": "Lato-Regular"
+					"url": "OpenSans-Regular"
 				},
 				{
 					"type": "woff",
-					"url": "assets/Lato-400.woff"
+					"url": "assets/OpenSans-400.woff"
 				},
 				{
 					"type": "woff2",
-					"url": "assets/Lato-400.woff2"
+					"url": "assets/OpenSans-400.woff2"
 				},
 				{
 					"type": "truetype",
-					"url": "assets/Lato-400.ttf"
+					"url": "assets/OpenSans-400.ttf"
 				}
 			]
 		},
@@ -58,23 +58,23 @@
 			"formats": [
 				{
 					"type": "local",
-					"url": "Lato Bold"
+					"url": "OpenSans Bold"
 				},
 				{
 					"type": "local",
-					"url": "Lato-Bold"
+					"url": "OpenSans-Bold"
 				},
 				{
 					"type": "woff",
-					"url": "assets/Lato-700.woff"
+					"url": "assets/OpenSans-700.woff"
 				},
 				{
 					"type": "woff2",
-					"url": "assets/Lato-700.woff2"
+					"url": "assets/OpenSans-700.woff2"
 				},
 				{
 					"type": "truetype",
-					"url": "assets/Lato-700.ttf"
+					"url": "assets/OpenSans-700.ttf"
 				}
 			]
 		}
