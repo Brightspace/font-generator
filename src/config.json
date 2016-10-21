@@ -66,15 +66,15 @@
 				},
 				{
 					"type": "woff",
-					"url": "assets/OpenSans-700.woff"
+					"url": "assets/OpenSans-600.woff"
 				},
 				{
 					"type": "woff2",
-					"url": "assets/OpenSans-700.woff2"
+					"url": "assets/OpenSans-600.woff2"
 				},
 				{
 					"type": "truetype",
-					"url": "assets/OpenSans-700.ttf"
+					"url": "assets/OpenSans-600.ttf"
 				}
 			]
 		}
