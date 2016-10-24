@@ -1,28 +1,24 @@
 {
-	"Lato": [
+	"Roboto": [
 		{
 			"style": "normal",
 			"weight": "300",
 			"formats": [
 				{
 					"type": "local",
-					"url": "Lato Light"
+					"url": "Roboto Light"
 				},
 				{
 					"type": "local",
-					"url": "Lato-Light"
-				},
-				{
-					"type": "woff",
-					"url": "assets/Lato-300.woff"
+					"url": "Roboto-Light"
 				},
 				{
 					"type": "woff2",
-					"url": "assets/Lato-300.woff2"
+					"url": "assets/Roboto-300.woff2"
 				},
 				{
 					"type": "truetype",
-					"url": "assets/Lato-300.ttf"
+					"url": "assets/Roboto-300.ttf"
 				}
 			]
 		},
@@ -32,23 +28,19 @@
 			"formats": [
 				{
 					"type": "local",
-					"url": "Lato Regular"
+					"url": "Roboto Regular"
 				},
 				{
 					"type": "local",
-					"url": "Lato-Regular"
-				},
-				{
-					"type": "woff",
-					"url": "assets/Lato-400.woff"
+					"url": "Roboto-Regular"
 				},
 				{
 					"type": "woff2",
-					"url": "assets/Lato-400.woff2"
+					"url": "assets/Roboto-400.woff2"
 				},
 				{
 					"type": "truetype",
-					"url": "assets/Lato-400.ttf"
+					"url": "assets/Roboto-400.ttf"
 				}
 			]
 		},
@@ -58,23 +50,19 @@
 			"formats": [
 				{
 					"type": "local",
-					"url": "Lato Bold"
+					"url": "Roboto Bold"
 				},
 				{
 					"type": "local",
-					"url": "Lato-Bold"
-				},
-				{
-					"type": "woff",
-					"url": "assets/Lato-700.woff"
+					"url": "Roboto-Bold"
 				},
 				{
 					"type": "woff2",
-					"url": "assets/Lato-700.woff2"
+					"url": "assets/Roboto-500.woff2"
 				},
 				{
 					"type": "truetype",
-					"url": "assets/Lato-700.ttf"
+					"url": "assets/Roboto-500.ttf"
 				}
 			]
 		}
