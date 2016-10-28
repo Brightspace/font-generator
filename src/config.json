@@ -14,15 +14,15 @@
 				},
 				{
 					"type": "woff",
-					"url": "assets/OpenSans-300.woff"
+					"url": "assets/OpenSans-400.woff"
 				},
 				{
 					"type": "woff2",
-					"url": "assets/OpenSans-300.woff2"
+					"url": "assets/OpenSans-400.woff2"
 				},
 				{
 					"type": "truetype",
-					"url": "assets/OpenSans-300.ttf"
+					"url": "assets/OpenSans-400.ttf"
 				}
 			]
 		},
