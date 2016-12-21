@@ -2,32 +2,6 @@
 	"Lato": [
 		{
 			"style": "normal",
-			"weight": "300",
-			"formats": [
-				{
-					"type": "local",
-					"url": "Lato Light"
-				},
-				{
-					"type": "local",
-					"url": "Lato-Light"
-				},
-				{
-					"type": "woff",
-					"url": "assets/Lato-300.woff"
-				},
-				{
-					"type": "woff2",
-					"url": "assets/Lato-300.woff2"
-				},
-				{
-					"type": "truetype",
-					"url": "assets/Lato-300.ttf"
-				}
-			]
-		},
-		{
-			"style": "normal",
 			"weight": "400",
 			"formats": [
 				{
