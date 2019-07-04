@@ -1,7 +1,7 @@
 # font-generator
 [![Build status][ci-image]][ci-url]
 
-Library which generates cross-browser CSS for Brightspace web fonts ([Lato](https://www.google.com/fonts/specimen/Lato) and [Open Dyslexic](https://github.com/antijingoist/open-dyslexic)).
+Library which generates cross-browser CSS for Brightspace web font ([Lato](https://www.google.com/fonts/specimen/Lato).
 
 Includes support for `WOFF2`, `WOFF` and `TTF` font assets, which cover: Chrome 3.5+, Safari 3+, Firefox 3.5+, IE 9+, Android 2.2+ and iOS 4.3+.
 
