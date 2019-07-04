@@ -1,6 +1,6 @@
 {
   "name": "font-generator",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Generates cross-browser CSS for web fonts",
   "main": "src/index.js",
   "bin": {
@@ -12,7 +12,7 @@
     "build": "node ./bin/generator > ./dist/fonts.css && cpy ./assets/* ./dist/assets && npm run uglify",
     "publish:cdn": "frau-publisher -m lib -t fonts -f './dist/**' -k AKIAJ74TXZZMW4IVWJOA --secretvar S3_SECRET --versionvar TRAVIS_TAG",
     "lint": "eslint src",
-    "uglify": "cleancss -s ./dist/fonts.css -o ./dist/fonts.min.css -c"
+    "uglify": "cleancss ./dist/fonts.css -o ./dist/fonts.min.css -c"
   },
   "repository": {
     "type": "git",
@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/Brightspace/font-generator",
   "devDependencies": {
-    "clean-css": "^3.4.11",
+    "clean-css-cli": "^4.3.0",
     "cpy-cli": "^1.0.0",
     "eslint": "^2.7.0",
     "eslint-config-brightspace": "0.2.0",
