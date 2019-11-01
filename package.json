@@ -31,7 +31,7 @@
   "devDependencies": {
     "clean-css-cli": "^4.3.0",
     "cpy-cli": "^1.0.0",
-    "eslint": "^2.7.0",
+    "eslint": "^6.6.0",
     "eslint-config-brightspace": "0.2.0",
     "eslint-plugin-react": "^4.3.0",
     "frau-publisher": "^2.5.3",
