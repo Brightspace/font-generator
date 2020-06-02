@@ -35,6 +35,6 @@
     "eslint-config-brightspace": "0.2.0",
     "eslint-plugin-react": "^7.20.0",
     "frau-publisher": "^2.7.12",
-    "rimraf": "^2.5.2"
+    "rimraf": "^3.0.2"
   }
 }
