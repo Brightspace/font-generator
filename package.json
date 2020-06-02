@@ -10,7 +10,7 @@
     "test": "npm run lint && npm run build",
     "prebuild": "rimraf dist && mkdir dist",
     "build": "node ./bin/generator > ./dist/fonts.css && cpy ./assets/* ./dist/assets && npm run uglify",
-    "publish:cdn": "frau-publisher -m lib -t fonts -f './dist/**' -k AKIAJ74TXZZMW4IVWJOA --secretvar S3_SECRET --versionvar TRAVIS_TAG",
+    "publish:cdn": "frau-publisher -m lib -t fonts -f './dist/**' --versionvar TRAVIS_TAG",
     "lint": "eslint src",
     "uglify": "cleancss ./dist/fonts.css -o ./dist/fonts.min.css -c"
   },
